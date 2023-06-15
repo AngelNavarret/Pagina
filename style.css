@@ -1,3 +1,4 @@
+/* esto es del header */
 .container-nav {
     display: flex;
     padding: 10px;
@@ -83,11 +84,13 @@
   
     }
   }
+
 .container{
+  
   display: flex;
   flex-direction: column;
   align-items: center;
-
+ 
 }
 .row{
   display: inherit;
@@ -104,7 +107,7 @@
   background-color: rgb(176, 231, 245);
   padding: 10px;
 }
-
+/* esto es del about */
 .about-img{
   display: flex;
   flex-wrap: wrap;
@@ -118,9 +121,12 @@
   height: 200px;
   margin: 5px ;
 }
-.facebook-logo{
+/* esto es del footer*/
+
+.logos{
   width: 40px;
   height: 40px;
+  padding: 3px;
 
 }
 
@@ -132,6 +138,9 @@
   justify-content: center;
   height: 60px;
   background-color: aqua;
+  padding-top: 100%;
 }
-
-
+#gidhub{
+  width: 70px;
+  height: 40;
+}
